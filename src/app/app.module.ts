@@ -3,10 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { FormForMaterialUIComponent } from './form-for-material-ui/form-for-material-ui.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    FormForMaterialUIComponent
   ],
   imports: [
     BrowserModule,
