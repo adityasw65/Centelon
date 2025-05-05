@@ -6,15 +6,16 @@ import { AppComponent } from './app.component';
 import { FormForMaterialUIComponent } from './form-for-material-ui/form-for-material-ui.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
+
 @NgModule({
   declarations: [
     AppComponent,
-    FormForMaterialUIComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    FormForMaterialUIComponent
   ],
   providers: [],
   bootstrap: [AppComponent]
