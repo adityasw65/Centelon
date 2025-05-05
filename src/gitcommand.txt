@@ -1,15 +1,15 @@
 ------- For PULL the code -------
-If not clone:  
+If not clone:
     - git clone <repository-url>
     - cd your-repo
+If yes then just type this command
     - git pull
 
 
 For accessing specific branch :
     - git pull origin <branch-name>
 
--------  For PUSH the code -------    
-
+-------  For PUSH the code -------
     - git add .
     - git commit -m "Your commit message here"
     - git push origin main
