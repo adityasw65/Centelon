@@ -7,6 +7,7 @@ import { MatInputModule } from '@angular/material/input';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatStepperModule } from '@angular/material/stepper';
 import { MatButtonModule } from '@angular/material/button';
+import { NgClass } from '@angular/common';
 
 @Component({
   selector: 'app-form-for-material-ui',
@@ -22,6 +23,7 @@ import { MatButtonModule } from '@angular/material/button';
     ReactiveFormsModule,
     MatFormFieldModule,
     MatInputModule,
+    NgClass
   ],
 })
 export class FormForMaterialUIComponent {
@@ -34,4 +36,13 @@ export class FormForMaterialUIComponent {
   isLinear = false;
 
   constructor(private _formBuilder: FormBuilder) { }
+
+  // ------ color changes
+  textColor = "";
+  greenColor = 'green';
+  changeColor(value: string) {
+    this.textColor = value;
+    console.log(value);
+  }
+
 }

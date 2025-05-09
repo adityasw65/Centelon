@@ -1,0 +1,19 @@
+.mat-stepper-horizontal {
+  margin-top: 8px;
+}
+
+.mat-mdc-form-field {
+  margin-top: 16px;
+}
+
+mat-stepper {
+  margin: 0 auto;
+  width: 70%;
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background: linear-gradient(480deg, rgb(81, 97, 103), rgb(190, 190, 101), rgb(98, 183, 98));
+  /* border: 2px solid red; */
+}
